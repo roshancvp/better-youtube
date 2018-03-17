@@ -1,4 +1,4 @@
-## Installation (D
+## Installation
 
 - Open `chrome://extensions/` and enable developer mode
 - Load the repo from `Load unpacked` or drag the repo onto the page.
