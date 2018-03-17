@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Better YouTube",
+  "description": "This extension removes the trending tab from youtube.",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*",
+        "http://www.youtube.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
